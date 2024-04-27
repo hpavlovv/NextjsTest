@@ -31,7 +31,7 @@ export const AgencySelection = (props) => {
           />
         </ImageWrapper>
         <CardsContainer>
-          
+          {/* Loop through the cardsData to display Card components */}
           {cardsData.map((card) => (
             <Card key={card.id} card={card} />
           ))}
