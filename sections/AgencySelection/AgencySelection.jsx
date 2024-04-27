@@ -19,7 +19,7 @@ export const AgencySelection = (props) => {
       <Heading>Managed Agency Selection</Heading>
       <SubHeading>Strengthen Your Onboarding Process</SubHeading>
 
-      
+      {/* Container for image and cards */}
       <InfoContainer>
         <ImageWrapper>
           

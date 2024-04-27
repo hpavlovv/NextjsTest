@@ -21,7 +21,7 @@ export const Card = ({ card }) => {
 
   return (
     <CardContainer>
-      
+      {/* Image section */}
       <ImageContainer>
         <Image
           src={image.src}
@@ -31,7 +31,7 @@ export const Card = ({ card }) => {
         />
       </ImageContainer>
 
-      
+      {/* Information section */}
       <CardInfoContainer>
         <CardInnerHeading>{title}</CardInnerHeading>
         <CardInnerText

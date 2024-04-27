@@ -1,5 +1,3 @@
-// // Styled elements for the Card go here
-
 import styled from 'styled-components';
 
 
